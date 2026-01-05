@@ -1,0 +1,149 @@
+\documentclass[12pt]{article}
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.3}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Laboratórios de Informática}
+\lhead{Dashboard PS2}
+\rfoot{\thepage}
+
+\title{
+\Huge \textbf{Trabalho Prático}\\[10pt]
+\Large Laboratórios de Informática\\[10pt]
+\Large Dashboard PS2
+}
+\author{
+\textbf{Autores:}\\
+Xico Dias\\
+(Nome do colega)
+}
+\date{2026}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Introdução}
+
+O presente trabalho foi realizado no âmbito da disciplina de Laboratórios de Informática e teve como objetivo o desenvolvimento de uma aplicação em Python capaz de ler, validar, processar e analisar ficheiros PS2 (relacionados com Débitos Diretos), apresentando os resultados através de um dashboard interativo desenvolvido com a biblioteca Shiny para Python.
+
+Este projeto permitiu trabalhar competências fundamentais como:
+\begin{itemize}
+\item Programação em Python
+\item Manipulação de ficheiros estruturados
+\item Processamento e análise de dados
+\item Organização modular de código
+\item Utilização de Git e GitHub
+\end{itemize}
+
+\section{Objetivos do Trabalho}
+
+Os principais objetivos definidos foram:
+
+\begin{itemize}
+\item Ler e interpretar ficheiros PS2
+\item Validar a estrutura e organização dos dados
+\item Extrair informação relevante
+\item Calcular estatísticas sobre os valores
+\item Apresentar os resultados de forma clara e intuitiva
+\item Criar um dashboard funcional e interativo
+\item Utilizar ferramentas de desenvolvimento colaborativo
+\end{itemize}
+
+\section{Arquitetura do Sistema}
+
+O projeto foi organizado de forma modular na pasta \texttt{app}, com três ficheiros principais:
+
+\subsection{parser.py}
+
+Responsável por:
+\begin{itemize}
+\item Leitura dos ficheiros PS2
+\item Validação do formato
+\item Extração de campos relevantes
+\item Transformação para estrutura utilizável
+\end{itemize}
+
+\subsection{analyzer.py}
+
+Responsável por:
+\begin{itemize}
+\item Construção da tabela de dados
+\item Cálculo de estatísticas:
+\begin{itemize}
+\item Total recebido
+\item Número de operações
+\item Valor máximo
+\item Valor mínimo
+\item Média
+\end{itemize}
+\end{itemize}
+
+\subsection{dashboard.py}
+
+Responsável por:
+\begin{itemize}
+\item Interface gráfica web
+\item Apresentação das estatísticas
+\item Exibição da tabela
+\item Geração do gráfico
+\end{itemize}
+
+\section{Dashboard Desenvolvido}
+
+O dashboard apresenta:
+\begin{itemize}
+\item Cartões informativos com estatísticas principais
+\item Tabela de operações processadas
+\item Gráfico com análise visual dos valores
+\end{itemize}
+
+\section{Tecnologias Utilizadas}
+
+\begin{itemize}
+\item Python 3
+\item Shiny para Python
+\item Pandas
+\item Matplotlib
+\item Git e GitHub
+\end{itemize}
+
+\section{Resultados Obtidos}
+
+O sistema final encontra-se:
+\begin{itemize}
+\item Funcional
+\item Organizado
+\item Modular
+\item Testado com ficheiros PS2
+\end{itemize}
+
+O dashboard apresenta corretamente os dados, estatísticas e gráficos exigidos no enunciado.
+
+\section{Conclusão}
+
+Todos os objetivos propostos no trabalho foram cumpridos com sucesso.  
+O projeto permitiu consolidar conhecimentos de programação, análise de dados e desenvolvimento de aplicações interativas, bem como a utilização de ferramentas profissionais de gestão de código.
+
+\section{Repositório GitHub}
+
+O projeto encontra-se disponível em:
+
+\begin{center}
+\textbf{\url{https://github.com/xicodias7-byte/dashboard-ps2}}
+\end{center}
+
+\end{document}
