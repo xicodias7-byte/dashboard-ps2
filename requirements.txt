@@ -1,0 +1,45 @@
+Relatório PS2
+Dashboard de Débitos Diretos
+
+1 Introdução
+No âmbito da unidade curricular de Laboratórios de Informática e Programação Imperativa, foi desenvolvido um projeto com o objetivo de criar uma solução informática para
+análise e visualização de dados financeiros, mais concretamente débitos diretos associados
+a clientes.
+Este trabalho combina conceitos de análise de dados, programação em Python, documentação técnica e apresentação profissional orientada para contexto empresarial.
+
+2 Problema
+As empresas que gerem pagamentos recorrentes enfrentam dificuldades na análise eficiente
+dos dados financeiros, nomeadamente na identificação de valores totais, médias, máximos
+e mínimos, bem como na visualização clara dos resultados por cliente.
+A ausência de ferramentas simples e interativas dificulta a tomada de decisões informadas.
+
+3 Solução Proposta
+A solução desenvolvida consiste num dashboard interativo implementado em Python,
+utilizando a framework Shiny for Python, que permite a visualização dinâmica dos dados
+de débitos diretos.
+O sistema lê dados estruturados, processa-os e apresenta indicadores financeiros relevantes de forma clara e intuitiva.
+
+4 Arquitetura da Solução
+A arquitetura do projeto é composta pelos seguintes módulos principais:
+• Parser: responsável pela leitura e validação dos dados.
+• Analyzer: realiza o processamento e cálculo das métricas.
+• Dashboard: interface gráfica interativa desenvolvida com Shiny.
+• Report: documentação técnica em LaTeX.
+Esta separação modular permite maior organização, reutilização de código e facilidade
+de manutenção.
+
+
+5 Resultados
+O dashboard permite:
+• Visualizar o total de valores processados.
+• Analisar o número de operações.
+• Identificar valores máximos, mínimos e médias.
+• Observar gráficos de totais por cliente.
+
+6 Conclusões
+O projeto desenvolvido cumpriu os objetivos propostos, demonstrando a aplicação prática
+dos conhecimentos adquiridos ao longo da unidade curricular.
+A solução apresentada é funcional, escalável e facilmente adaptável a outros conjuntos
+de dados, constituindo uma ferramenta útil para empresas que necessitam de analisar
+informação financeira de forma clara e eficiente.
+A solução mostrou-se eficaz na análise dos dados e adequada a um contexto empresarial.
